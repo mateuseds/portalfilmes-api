@@ -106,7 +106,7 @@ function exibeLista() {
     for (i = 1; i <= lista.total_pages; i++) {
         paginas += `
 			<li class="page-item ${lista.page==i?"disabled":""}">
-				<a class="page-link text-info" href="portalfilmes-api/pesquisa.html?query=${query}&page=${i}">${i}</a>
+				<a class="page-link text-info" href="/portalfilmes-api/pesquisa.html?query=${query}&page=${i}">${i}</a>
 			</li>
 		`;
     }
@@ -135,6 +135,6 @@ xhrPesquisa.send();
 
 
 document.getElementById("pesquisa-form").addEventListener("submit", function(e) {
-    window.location.href = `portalfilmes-api/pesquisa.html?query=${document.getElementById("input-search").value}`;
+    window.location.href = `/portalfilmes-api/pesquisa.html?query=${document.getElementById("input-search").value}`;
     e.preventDefault();
 });
