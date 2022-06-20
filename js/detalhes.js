@@ -116,6 +116,6 @@ xhrFilme.open('GET', `${BASE_API_URL}movie/${idFilme}?api_key=${API_KEY}&languag
 xhrFilme.send();
 
 document.getElementById("pesquisa-form").addEventListener("submit", function(e) {
-    window.location.href = `/pesquisa.html?query=${document.getElementById("input-search").value}`;
+    window.location.href = `/portalfilmes-api/pesquisa.html?query=${document.getElementById("input-search").value}`;
     e.preventDefault();
 });
