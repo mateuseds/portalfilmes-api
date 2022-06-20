@@ -1,0 +1,521 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background: rgb(12, 17, 22);
+    color: white;
+}
+
+.header {
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.9);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.logo {
+    border-radius: 15px;
+    height: 50px;
+    width: 50px;
+}
+
+.filmeSection {
+    padding: 10px 0px;
+    border-radius: 3px;
+    margin: 150px 30px;
+}
+
+.nav:hover {
+    opacity: 0.8;
+}
+
+.lancamentos {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+.subtitle__lancamentos {
+    text-align: center;
+    padding: 110px 100px 100px 100px;
+}
+
+.carousel-item .row {
+    min-height: 0 !important;
+}
+
+div.carousel-item div.lancamento-poster {
+    text-align: center;
+}
+
+div.carousel-item div.lancamento-poster img {
+    width: auto;
+}
+
+div.container section#section-lancamentos {
+    padding-top: 80px;
+}
+
+div#carousel-lancamentos div.carousel-item .lancamento-sinopse {
+    font-size: 0.9em;
+    line-height: normal;
+}
+
+div#carousel-lancamentos div.carousel-item .lancamento-sinopse strong {
+    font-size: 1.1em;
+}
+
+div#carousel-lancamentos div.carousel-item div.row>div {
+    margin-bottom: 10px;
+}
+
+div#carousel-lancamentos div.carousel-inner {
+    padding-bottom: 30px;
+    min-height: 430px;
+}
+
+@media (min-width: 991px) {
+    div#carousel-lancamentos div.carousel-inner {
+        padding-bottom: 50px;
+    }
+}
+
+div#carousel-lancamentos ol.carousel-indicators .active {
+    background-color: #17a2b8;
+}
+
+.button-carousel {
+    top: 120px;
+    background-color: rgba(100, 100, 100, 0.541);
+    opacity: 1;
+    border-radius: 50%;
+    max-height: 50px;
+    max-width: 40px;
+}
+
+.carousel-item .row {
+    min-height: 500px;
+}
+
+.avaliacao p {
+    margin-bottom: 0;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.destaque {
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    background: #212529;
+}
+
+.categoria {
+    text-align: right;
+}
+
+section {
+    padding: 10px 0px;
+    border-radius: 3px;
+    margin-bottom: 35px;
+}
+
+section#section-destaque {
+    padding-top: 20px;
+}
+
+section#section-avaliacoes div.cards-avaliacao div.col-12 {
+    margin-bottom: 10px;
+}
+
+section#section-avaliacoes div.cards-avaliacao div.card {
+    min-height: 200px;
+}
+
+.card {
+    background-color: #212529;
+    border-radius: 5px;
+    height: 500px;
+}
+
+.filmes-destaque img {
+    min-width: 250px;
+    height: 350px;
+}
+
+.filme-destaque {
+    margin-bottom: 15px;
+    height: 100%;
+}
+
+.destaque__img {
+    transition: 0.5s transform ease-in-out;
+}
+
+.destaque__img:hover {
+    transform: scale(1.2);
+}
+
+.img-destaque {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 1em black;
+}
+
+.img-destaque__title {
+    text-align: center;
+}
+
+.destaque div {
+    margin-bottom: 20px;
+}
+
+.button-funcional {
+    text-align: center;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.btn-primary {
+    background-color: rgb(118 118 118 / 58%);
+    border-color: #212529;
+    border-radius: 20px;
+}
+
+.avaliacoes {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.avaliacoes div {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.avaliacoes img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0 0 1em black;
+}
+
+.avaliador {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.button-avaliacoes {
+    border-radius: 5px;
+    background-color: rgb(118 118 118 / 58%);
+    color: white;
+    margin-top: 15px;
+}
+
+.entrevistas {
+    padding: 20px 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    background: #212529;
+}
+
+.entrevistas div {
+    margin-bottom: 20px;
+}
+
+.novidades {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.novidades img {
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 0 0 1em black;
+}
+
+.materia {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.materia__meio {
+    padding: 20px;
+    border-radius: 10px;
+    background: #212529;
+}
+
+.editPesquisa {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+}
+
+.imagemEdit {
+    display: flex;
+}
+
+.pagination {
+    margin-top: 25px;
+}
+
+img {
+    border-radius: 10px;
+    transition: 0.5s transform ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.editPesquisa img {
+    max-width: 350px;
+    max-height: 520px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 1em black;
+}
+
+.btn-info {
+    background-color: #1e90ff;
+    border-color: #1e90ff;
+}
+
+.text-materia {
+    width: calc(100% - 210px);
+    padding: 0 10px;
+}
+
+.img-materia,
+.text-materia {
+    display: inline-block;
+}
+
+.list-group {
+    background-color: #212529;
+}
+
+.align-items-start {
+    background: none;
+    border-radius: 10px;
+}
+
+.list-group-item-action:focus,
+.list-group-item-action:hover {
+    color: #fff;
+    background-color: #28425c;
+}
+
+section#section-pesquisa {
+    margin-top: 100px;
+}
+
+.list-group-item-action {
+    color: white;
+}
+
+.img-materia {
+    width: 200px;
+    margin-top: 5px;
+    vertical-align: top;
+    box-shadow: 0 0 1em black;
+    transition: 0.5s transform ease-in-out;
+}
+
+.img-materia:hover {
+    transform: scale(1.1);
+}
+
+.sobre {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #212529;
+}
+
+.editorial {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.editorial-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.redes-sociais {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social {
+    padding: 0px;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 0 1em black;
+    transition: 0.5s transform ease-in-out;
+}
+
+.portal {
+    width: 148.5px;
+    height: 84px;
+    border-radius: 5px;
+    box-shadow: 0 0 1em black;
+    transition: 0.5s transform ease-in-out;
+}
+
+.centralizacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descricao-portal {
+    text-align: center;
+    margin: 25px;
+}
+
+.portal:hover {
+    transform: scale(1.2);
+}
+
+.social:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.btn-outline-infoo {
+    color: #000;
+    background-color: #0dcaf0;
+    border-color: #0dcaf0;
+    z-index: 999 !important;
+}
+
+.input-group-appendd {
+    margin-left: -40px !important;
+}
+
+@media screen and (max-width: 970px) {
+    .menu1 {
+        display: none;
+    }
+    .menu-mobile {
+        display: inherit;
+        position: absolute;
+        top: 20px;
+        left: 88%;
+    }
+    .pesquisar {
+        position: absolute;
+        top: 25px;
+        left: 40%;
+    }
+    .texto-lancamento {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 524px) {
+    .header {
+        background-color: rgb(235, 235, 235);
+    }
+    .logo-nav {
+        display: none;
+    }
+    .menu1 {
+        display: none;
+    }
+    .menu-mobile {
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        left: 90%;
+    }
+    .pesquisar {
+        position: inherit;
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .avaliacoes img {
+        display: none;
+    }
+    .avaliador {
+        margin-top: 20px;
+        padding: 10px;
+        border-bottom: 1px solid black;
+    }
+    .avaliador:nth-child(4) {
+        border-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 1544px) {
+    .menu1 {
+        position: absolute;
+        top: 25px;
+        left: 20%;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .texto-lancamento {
+        margin-top: 20px;
+    }
+    .entrevista-all {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 577px) {
+    .novidades img {
+        width: 200px;
+        border-radius: 5px;
+    }
+    .novidades h1 {
+        text-align: center;
+    }
+    .img-materia,
+    .text-materia {
+        display: block;
+        width: 100%;
+    }
+    .img-materia img {
+        width: 100%;
+    }
+    .text-materia {
+        width: 100%;
+        padding: 0 10px;
+        margin-top: 10px;
+    }
+    .materia {
+        margin-bottom: 10px;
+    }
+    .sobre {
+        margin-top: 10px;
+    }
+    .sobre .texto-sobre {
+        margin-bottom: 40px;
+    }
+    .novidades h1 {
+        margin-bottom: 30px;
+    }
+}
