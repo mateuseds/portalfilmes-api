@@ -92,7 +92,7 @@ function exibeFilmesEmCartaz() {
 
         let xhrAvaliacoes = new XMLHttpRequest();
         xhrAvaliacoes.onload = acrescentaAvaliacoes;
-        xhrAvaliacoes.open('GET', `${BASE_API_URL}movie/${filme.id}/reviews?api_key=${API_KEY}&page=1`);
+        xhrAvaliacoes.open('GET', `${BASE_API_URL}movie/${filme.id}/reviews?api_key=${API_KEY}&language=pt-BR&page=1`);
         xhrAvaliacoes.send();
     };
 
@@ -255,7 +255,6 @@ document.getElementById("pesquisa-form").addEventListener("submit", function(e) 
 });
 
 buscaInformacoesIniciais();
-
 
 $(function() {
     $(document).on('scroll', function() {
